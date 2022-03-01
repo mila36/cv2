@@ -1,0 +1,135 @@
+html {
+  background-image: url('/Users/ann/Desktop/Web Development/CSS- My Site/images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+}
+
+h1 {
+  color: #94B49F;
+  font-size: 90px;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #F58840;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #F58840;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #E5E3C9 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a {
+  color: #FC28FB;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #9AD0EC;
+}
+
+.top-container {
+  background-color: #F7F7F7;
+  position: relative;
+  padding-top: 150px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #F7F7F7;
+  padding: 50px 0 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #C1A3A3;
+  font-size: 0.75rem;
+  padding: 10px 0;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 100px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 500px;
+}
+
+.business-img {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.code-img {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.btn {
+  background: #d9badb;
+  background-image: linear-gradient(top, #d9badb, #2c62b8);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ffffff;
+  background-image: linear-gradient(top, #ffffff, #3498db);
+  text-decoration: none;
+}
